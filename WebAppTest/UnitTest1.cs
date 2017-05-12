@@ -11,7 +11,7 @@ namespace WebAppTest
         public void TestOK()
         {
             bool flag = Utility.IsOk();
-            Assert.IsTrue(flag);
+            Assert.IsFalse(flag);
         }
     }
 }
