@@ -30,7 +30,7 @@ namespace WebApplication4
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World!  good Jenkins!");
             });
         }
     }
